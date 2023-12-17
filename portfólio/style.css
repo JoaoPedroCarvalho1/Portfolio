@@ -349,11 +349,11 @@ a{  text-decoration: none;
 }
 #Cards_Projetos{
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
     transition: 0.3s;
 }
 #Cards_Projetos:hover{
@@ -381,7 +381,7 @@ a{  text-decoration: none;
 .Cards_Projetos_geral{
     height: 200px;
     width: 460px;
-    background-size: cover;
+    background-size:cover;
     border-radius: 10px;
     margin: 30px;
     align-items: center;
